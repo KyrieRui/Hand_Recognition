@@ -4,7 +4,7 @@
 ### Description: This is a hand detector using OpenCV and Mediapipe
 
 #### This program basically detects the hand and the landmarks of the hand.
-![Hand Detector](Kapture 2022-09-20 at 13.49.25.gif)
+![Hand Detector](https://github.com/KyrieRui/Hand_Recognition/blob/main/Kapture%202022-09-20%20at%2014.08.16.gif)
 
 ## Installation
 ### Install OpenCV
