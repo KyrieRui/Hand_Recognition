@@ -60,6 +60,8 @@ camera.release()
 cv2.destroyAllWindows()
 ```
 
+At present, the program can store the joint points of the left and right hands separately in a specific dictionary to facilitate searching and calling. Next, I will try to determine whether the user gesture is a specific gesture, and then implement operations such as painting in the air or controlling the computer mouse.
+
 
 ## Reference
 https://www.bilibili.com/video/BV1mb4y1B78p?vd_source=9fa62e123b591fe30734493ac73e11b1
