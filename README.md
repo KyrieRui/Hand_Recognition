@@ -32,7 +32,7 @@ import mediapipe as mp
 2. allow the camera and hand solution in mediapipe
 ```python
 camera = cv2.VideoCapture(0) ## '0' is your device default camera, use '1' if you have another camera
-hand_detetor = mp.solutions.hands
+hand_detetor = mp.solutions.hands.Hands()
 ```
 
 3. We can def an loop, as long as the camera is open, we can get the image from the camera
