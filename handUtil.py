@@ -1,5 +1,6 @@
 import cv2
 import mediapipe as mp
+import time
 
 class HandDetector():
     def __init__(self):
@@ -32,4 +33,6 @@ class HandDetector():
 
                 i = i + 1
         return positions
+
+
 
