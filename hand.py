@@ -54,7 +54,7 @@ while True:
                 volume_percent = np.interp(length_left, [50, 300], [0, 100])
                 cv2.rectangle(img, (50, int(target_volume_bar)), (85, 400), (0, 255, 0), cv2.FILLED)
                 cv2.putText(img, f'{int(volume_percent)} %', (40, 450), cv2.FONT_HERSHEY_PLAIN, 2, (255, 0, 0), 2)
-                applescript.tell.app('System Events', 'set volume output volume {}'.format(target_volume))
+                # applescript.tell.app('System Events', 'set volume output volume {}'.format(target_volume))
 
 
           if right_index_finger:
